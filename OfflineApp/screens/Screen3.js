@@ -1,14 +1,19 @@
 import React, {Component} from 'react';
 import {View, Text} from 'react-native';
-import AppNavigator from './Navigation/AppNavigator';
 
-export default class App extends Component {
+class Screen3 extends Component {
   constructor(props) {
     super(props);
     this.state = {};
   }
 
   render() {
-    return <AppNavigator />;
+    return (
+      <View>
+        <Text> Screen3 </Text>
+      </View>
+    );
   }
 }
+
+export default Screen3;
